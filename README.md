@@ -79,3 +79,13 @@ npm run clear
 ```
 
 > Será deletada a pilha criada pelo Serverless, juntamente com a tabela do DynamoDB.
+
+
+## Estrutura de arquivos:
+
+```
+|-- main.ts           # arquivo principal, aqui está todas as funções
+|-- serverless.yml    # arquivo de configuração do Serverless Framework
+```
+
+Saiba mais do Serverless Framework [aqui](https://www.serverless.com/framework/docs/getting-started)
