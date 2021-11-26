@@ -88,4 +88,4 @@ npm run clear
 |-- serverless.yml    # arquivo de configuração do Serverless Framework
 ```
 
-Saiba mais do Serverless Framework [aqui](https://www.serverless.com/framework/docs/getting-started)
+_Saiba mais sobre o Serverless Framework [aqui](https://www.serverless.com/framework/docs/getting-started)_
