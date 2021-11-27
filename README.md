@@ -17,6 +17,7 @@ npm run deploy
 Será gerado o arquivo JavaScript e iniciará o deploy para AWS com o Serverless Framework.
 
 > Talvez seja necessário realizar o login no console da AWS
+
 > A as configurações do DynamoDB e outras estão no arquivo `serverless.yml`
 
 Após o deploy, será mostrado a URL pública da aplicação que está liberada para todos por padrão (sem auth)
