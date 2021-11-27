@@ -28,7 +28,7 @@ provider:
 
 functions:
   api:
-    handler: main.handler
+    handler: src/main.handler
     events:
       - httpApi: "*"
 
@@ -39,14 +39,6 @@ resources:
       Properties:
         AttributeDefinitions:
           - AttributeName: uuid
-            AttributeType: S
-          - AttributeName: id
-            AttributeType: N
-          - AttributeName: name
-            AttributeType: S
-          - AttributeName: age
-            AttributeType: N
-          - AttributeName: role
             AttributeType: S
         KeySchema:
           - AttributeName: uuid
