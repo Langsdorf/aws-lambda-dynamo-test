@@ -1,10 +1,10 @@
 # AWS LAMBDA + DYNAMODB
 
 ## Tópicos
-  - ### [Uso](#uso)
-  - ### [Testes](#testes)
-  - ### [Limpeza](#limpeza)
-  - ### [Estrutura de arquivos](#estrutura-de-arquivos)
+  - ### [Uso](#uso-1)
+  - ### [Testes](#testes-1)
+  - ### [Limpeza](#limpeza-1)
+  - ### [Estrutura de arquivos](#estrutura-de-arquivos-1)
 
 
 ## Uso
