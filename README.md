@@ -1,3 +1,12 @@
+# AWS LAMBDA + DYNAMODB
+
+## Tópicos
+  - ### [Uso](#uso)
+  - ### [Testes](#testes)
+  - ### [Limpeza](#limpeza)
+  - ### [Estrutura de arquivos](#estrutura-de-arquivos)
+
+
 ## Uso
 
 ### Deploy
@@ -70,6 +79,16 @@ export UUID=uuid && curl -X DELETE "https://xxxxxxx.execute-api.us-east-1.amazon
 export UUID=uuid && curl -X PUT "https://xxxxxx.execute-api.us-east-1.amazonaws.com/employees/$UUID" -H 'Content-Type: application/json' --data-raw '{"id": 2, "name": "Nome2", "age": 1, "role": "admin2"}' && unset UUID
 ```
 
+## Testes
+
+> **Antes de rodar os testes, altere a URL em `tests/tests.ts` para a URL pública da sua aplicação.**
+
+Rode os testes usando:
+
+```bash
+npm run test
+```
+
 ## Limpeza
 
 Para remover o que foi criado na AWS, execute o comando:
@@ -84,8 +103,11 @@ npm run clear
 ## Estrutura de arquivos:
 
 ```
-|-- main.ts           # arquivo principal, aqui está todas as funções
-|-- serverless.yml    # arquivo de configuração do Serverless Framework
+|-- src\
+|---- main.ts           # arquivo principal, aqui está todas as funções
+|-- tests\
+|---- tests.ts          # Arquivo de testes unitários
+|-- serverless.yml      # arquivo de configuração do Serverless Framework
 ```
 
 _Saiba mais sobre o Serverless Framework [aqui](https://www.serverless.com/framework/docs/getting-started)_
